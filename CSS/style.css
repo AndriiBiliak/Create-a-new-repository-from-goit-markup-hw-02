@@ -34,7 +34,7 @@ a{
 }
 
 
-.link:hover,:focus{
+.link-nav:hover,:focus{
     color: var(--accent-color);
 
 }
@@ -112,6 +112,9 @@ a{
     color: #FFFFFF;
 }
 
+.btns:hover,:focus{
+    
+}
 
 .btns{
     background: #2196F3;
@@ -237,11 +240,7 @@ a{
     font-weight: 400;
     font-size: 14px;
     line-height: calc(24/14);
-}
-
-
-.link-cont:hover,:focus{
-    color: var(--accent-color);
+    cursor: default;
 }
 
 
@@ -252,7 +251,7 @@ a{
     line-height: calc(26/16);
     text-align: center;
     letter-spacing: 0.03em;
-    background: #F5F4FA;
+    background: var(--secondary-color);
     border-radius: 4px;
 }
 
@@ -263,7 +262,7 @@ a{
     line-height: calc(26/16);
     text-align: center;
     letter-spacing: 0.03em;
-    background: #2196F3;
+    background: var(--secondary-color);
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
 }
@@ -291,5 +290,20 @@ a{
     line-height: calc(26/16);
     text-align: center;
     letter-spacing: 0.03em;
+}
+
+.btn:hover,:focus{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: calc(26/16);
+    text-align: center;
+    letter-spacing: 0.03em;
+    background: var(--accent-color);
     color: #FFFFFF;
+    cursor: pointer
+}
+
+.btn-all:hover,:focus {
+    background: var(--accent-color);
+    cursor: pointer
 }
