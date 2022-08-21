@@ -292,7 +292,7 @@ a{
     letter-spacing: 0.03em;
 }
 
-.btn:hover,:focus{
+.btn:hover,:focus {
     font-weight: 500;
     font-size: 16px;
     line-height: calc(26/16);
@@ -304,6 +304,7 @@ a{
 }
 
 .btn-all:hover,:focus {
+    color: var(--secondary-color);
     background: var(--accent-color);
     cursor: pointer
 }
